@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import React, { FormEvent, useState } from 'react';
 
 
-function search() {
+function Search() {
   const [search, setSearch] = useState("");
   const router = useRouter();
 
@@ -24,4 +24,4 @@ function search() {
 
 }
 
-export default search
+export default Search
